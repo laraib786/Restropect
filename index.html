@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Restropect</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="dist/morphext.css">
+	<script type="text/javascript" src="assets/js/wow.min.js"></script>
+	<script src="assets/js/morphext.min.js"></script>
+	<script type="text/javascript" src="assets/js/easing/easing.js"></script>
+	<script type="text/javascript" src="assets/js/easing/easing.min.js"></script>
+	<script>
+		$(window).scroll(function()
+		{
+			if ($(this).scrollTop() > 500){  
+    		$('.top-scroll').addClass("shows");
+  		}
+  		else
+  		{
+    		$('.top-scroll').removeClass("shows");
+  		}
+		});
+		new WOW().init();
+
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "250px";
+		    document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		    document.getElementById("mySidenav").style.width = "0";
+		    document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+</head>
+<body>
+	<div class="slider1 clearfix">
+		<div class="overlay">
+			<div class="nav-container clearfix">
+				<div class="nav-bar">
+					<div class="logo">
+						<h1>RETROSPECT</h1>
+					</div>
+						<div class="nav-link">
+							<div id="mySidenav" class="sidenav">
+	  						  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+							  <a href="#">About</a>
+							  <a href="#">Services</a>
+							  <a href="#">Clients</a>
+							  <a href="#">Contact</a>
+						</div>
+						<div id="main">
+							<i class="fa fa-bars"></i><a href="#" onclick="openNav()">Menu</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="slider">
+					<i class="fa fa-diamond"></i>
+					<h1>ETIAM ADIPISCING</h1>
+					<h2>MAGNA FEUGIAT LOREM DOLOR EGESTAS</h2>
+					<a href="#">LEARN MORE</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="box">
+			<div class="img">
+				<img src="assets/img/pic01.jpg" alt="Pic 01">
+			</div>
+			<div class="matter">
+				<h1>INTEGER VITAE LIBERO ACRISUS EGESTAS PLACERAT SOLLICITUDIN</h1>
+				<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae lectus metus libero eu augua. Morbi purus libero, faucibus adipiscing. Commodo quis, gravuda ed, est.</p><br>
+				<a href="#">MORE</a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="img">
+				<img src="assets/img/pic02.jpg" class="set" alt="Pic 02" style="margin-left: -6px;">
+			</div>
+			<div class="matter">
+				<h1>INTEGER VITAE LIBERO ACRISUS EGESTAS PLACERAT SOLLICITUDIN</h1>
+				<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae lectus metus libero eu augua. Morbi purus libero, faucibus adipiscing. Commodo quis, gravuda ed, est.</p><br>
+				<a href="#">MORE</a>
+			</div>
+		</div>
+	</div>
+	<div class="slider2 clearfix">
+		<div class="container">
+			<h1>ALIQUAM BLANDIT MAURIS</h1>
+			<p>IPSUM DOLOR TEMPUS COMMODO TURPIS ADIPISCING TEMPOR PLACERAT SED AMET ACCUMSAN</p>
+			<div class="pics ">
+				<div class="hall">
+					<img src="assets/img/pic03.jpg">
+					<h2><span>Click Here...</span></h2>
+				</div>
+				<div class="hall">
+					<img src="assets/img/pic04.jpg" >
+					<h2><span>Click Here...</span></h2>
+				</div>
+				<div class="hall">
+					<img src="assets/img/pic05.jpg" >
+					<h2><span>Click Here...</span></h2>
+				</div>
+				<div class="hall">
+					<img src="assets/img/pic06.jpg" >
+					<h2><span>Click Here...</span></h2>
+				</div>
+				<div class="hall">
+					<img src="assets/img/pic07.jpg" >
+					<h2><span>Click Here...</span></h2>
+				</div>
+				<div class="hall">
+					<img src="assets/img/pic08.jpg" >
+					<h2><span>Click Here...</span></h2>
+				</div>
+				<div class="hall">
+					<img src="assets/img/pic09.jpg" >
+					<h2><span>Click Here...</span></h2>
+				</div>
+				<div class="hall">
+					<img src="assets/img/pic10.jpg" >
+					<h2><span>Click Here...</span></h2>
+				</div>
+			</div>
+			<a>TEMPUS ALIQUAM</a>
+		</div>
+	</div>
+	<div class="slider3">
+		<div class="OverlayDark">
+			<div class="container">
+				<h1>MAGNA SED CONSEQUAT TEMPUS</h1>
+				<p>IPSUM DOLOR TEMPUS COMMODO TURPIS ADIPISCING TEMPOR PLACERAT SED<br> AMET ACCUMSAN</p>
+				<a>MAGNA FEUGIAT</a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<h1>GET IN TOUCH</h1>
+			<p>IPSIPSUM DOLOR TEMPUS COMMODO ADIPISCING</p>
+			<div class="form">
+				<form>
+					<input type="text" name="Name" id="" placeholder="Name" class="small left" required="">
+					<input type="email" name="Email" id="" placeholder="Email" class="small right" required="">
+					<textarea name="Message" placeholder="Message" required=""></textarea>
+					<input type="submit" name="SUBMIT" value="SUBMIT" class="submit">
+					<input type="submit" name="RESET" value="RESET" class="reset">
+				</form>
+			</div>
+			<hr>
+			<div class="form">
+				<div class="social-icon">
+					<a href="#" title="Facbook"><i class="fa fa-facebook"></i></a>
+					<a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+					<a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+					<a href="#" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+				</div>
+				<p style="padding-bottom: 40px;">@ Designed By Muhammad Laraib</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
